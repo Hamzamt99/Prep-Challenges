@@ -39,13 +39,9 @@ reversed = reversed.replace(/,/g, "")
 
 const detectFace = (arr) => {
     //write your code here ...
-    let res=[]
-    arr.forEach(ele=>{
-        if (ele.indexOf("^_^")>0) {
-            res.push(ele)
-        }
-    })
-    return res
+   if(arr == '^_^'){
+    
+   }
 }
 // -------------------------------------------------------------------------------------------------------
 
