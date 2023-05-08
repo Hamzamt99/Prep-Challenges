@@ -156,7 +156,13 @@ const cvFormatter = (arr) => {
 //  1- rejectedApplicants are applications that has both the names empty or null and whoever have one year or less of Experience
 
 const applicationsStatics = (arr) => {
-    // write your code here
+    for(let i =0; i<arr.length;i++){
+        let result = {};
+        if(arr[i].tech == 'JS'){
+            result.python_devs 
+        }
+    }
+    
 };
 // -------------------------------------------------------------------------------------------------------
 
